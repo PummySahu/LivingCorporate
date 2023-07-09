@@ -71,26 +71,14 @@ document.querySelector("#part5>#part51>#cir>#cir5").addEventListener("click",fun
 var active = 3;
 
 var mncircles = document.querySelectorAll(".cirr");
-// var sec = document.querySelectorAll(".sec");
 
 gsap.to(mncircles[active-3],{
-    // opacity:.5,
     backgroundColor:" #FEF9F3",
     boxShadow:"-5px 5px .5px .5px rgb(17, 16, 16"
 })
 
-// gsap.to(sec[active-1],{
-//     opacity:1
-// })
-
-
 mncircles.forEach(function(val,index){
     val.addEventListener("click",function(){
-        // gsap.to("#circle",{
-        //     rotate:(3-(index+1))*10,
-        //     ease:Expo.easeInOut,
-        //     duration:1
-        // })
         console.log("hello"),
         greyout();
         gsap.to(this,{
@@ -99,9 +87,7 @@ mncircles.forEach(function(val,index){
             boxShadow: "-5px 5px .5px .5px rgb(17, 16, 16) "
 
         })
-        // gsap.to(sec[index],{
-        //     opacity:1
-        // })
+
     })
     
 })
@@ -113,23 +99,7 @@ function greyout(){
         backgroundColor:"transparent",
         boxShadow:" 0px 0px 0px 0px"
     })
-    // gsap.to(sec,{
-    //     opacity:.4
-    // })
 }
-// gsap.to("#circle",{
-//     rotate:0,
-//     ease:Expo.easeInOut,
-//     duration:2
-// })
-
-
-
-// mncircles.addEventListener("onmousemove",function(val){
-//     val.style.backgroundColor = "#FEF9F3"
-// })
-
-
 
 
 var pds = document.querySelector("#pds")
@@ -280,12 +250,10 @@ gsap.from("#numb",{
 })
 
 gsap.from("#part12>h4",{
-    // y:-100,
     ease:Expo,
     opacity:0,
     duration:2,
     delay:3,
-    // scale:0
 })
 
 
@@ -308,7 +276,6 @@ overlay.addEventListener("mousemove",function(dets){
 })
 
 
-//****************************************************************************** */
 
 var box1 = document.querySelector("#box1")
 var over1 = document.querySelector("#over1")
@@ -373,27 +340,6 @@ box4.addEventListener("mouseenter",function(){
 box4.addEventListener("mouseleave",function(){
     over4.style.scale = "0"
 })
-
-// var bomx = document.querySelectorAll(".box")
-// var overa = document.querySelectorAll(".over")
-
-
-// bomx.forEach((bomx) => {
-//     overa.forEach((overa)=>{
-//         bomx.addEventListener("mouseenter",function(){
-//             overa.style.scale = "1"
-//             bomx.style.cursor = "pointer"
-//         })
-//         bomx.addEventListener("mousemove",function(debt){
-//             overa.style.left = (debt.x)+"px"
-//             overa.style.top = (debt.y-200)+"px"
-//         })
-//         bomx.addEventListener("mouseleave",function(){
-//             overa.style.scale = "0"
-//         })
-//     })
-// });
-
 
 
 var cir = document.querySelectorAll("#part5>#part51>#cir>button")
