@@ -1,10 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-family: gilroy; */
-    /* font-family: Bold Testament; */
     box-sizing: border-box;
-    /* font-family:"BureauGrot-UltraBlack"; */
 }
 @font-face {
     font-family: grot ;
@@ -72,22 +69,6 @@ html,body{
     position: relative;
 }
 
-/* #full-scr h1::after {
-    content: "";
-    position: absolute;
-    height: 2px;
-    bottom: 0;
-    background-color: #f5f5f5;
-    left: 0;
-    width: 0;
-    -webkit-transition: all ease-out 0.5s;
-    -o-transition: all ease-out 0.5s;
-    transition: all ease-out 0.5s;
-}
-
-#full-scr h1:hover::after {
-    width: 100%;
-} */
 #full-scr h1::after{
     content: "";
     position: absolute;
@@ -98,7 +79,7 @@ html,body{
     bottom: -35%;
     transition:all linear .3s;
     mix-blend-mode: multiply
-    /* z-index: -1; */
+ 
 }
 #full-scr h1:hover::after{
     bottom: 0;
@@ -123,7 +104,7 @@ html,body{
     top: 10%;
     left: 15%;
     rotate: 30deg;
-    /* opacity: 0; */
+  
     scale: 0;
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
 }
@@ -131,7 +112,6 @@ html,body{
     rotate: -30deg;
     right: 10%;
     top: 10%;
-    /* opacity: 0; */
     scale: 0;
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
 }
@@ -139,7 +119,6 @@ html,body{
     left: 15%;
     top: 40%;
     rotate: -20deg;
-    /* opacity: 0; */
     scale: 0;
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
 }
@@ -147,7 +126,6 @@ html,body{
     right: 5%;
     top: 30%;
     rotate: 30deg;
-    /* opacity: 0; */
     scale: 0;
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
 }
@@ -155,7 +133,6 @@ html,body{
     left: 5%;
     top: 10%;
     rotate: -20deg;
-    /* opacity: 0; */
     scale: 0;
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
 }
@@ -163,7 +140,6 @@ html,body{
     right: 15%;
     top: 35%;
     rotate: 10deg;
-    /* opacity: 0; */
     scale: 0;
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
 }
@@ -171,7 +147,6 @@ html,body{
     top: 30%;
     left: 3%;
     rotate: -10deg;
-    /* opacity: 0; */
     scale: 0;
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
 
@@ -193,7 +168,6 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* font-size: 1.3vw; */
     font-size: 1.3vmax;
     font-weight: 900;
     background-color: #FEF9F3;
@@ -219,7 +193,6 @@ html,body{
     line-height: .8;
 }
 #nav1>i{
-    /* font-size:4vw; */
     font-size: 4.5vmax;
     font-weight: 700;
     font-stretch: extra-expanded;
@@ -355,7 +328,6 @@ html,body{
     width: 100%;
     display: flex;
     flex-direction: column;
-     /* justify-content: space-evenly; */
      align-items: center;
      bottom: 0;
      left: 0;
@@ -727,22 +699,17 @@ html,body{
 #part2{
     width: 100%;
     height: 20vh;
-    /* background-color: beige; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding: 0px 25px 0px 25px;
 }
 #part2>h1{
     width: 50%;
-    /* background-color: #DF80AC; */
     font-size: 3.5vmax;
     font-weight: 900;
-    /* font-family: "BureauGrot-UltraBlack"; */
 }
 #part2>p{
     width: 40%;
-    /* background-color: #FEF9F3; */
     padding-right: 20px;
     font-size: 1.1vmax;
     font-weight: 600;
@@ -852,8 +819,6 @@ html,body{
     background-position: center;
     background-size: cover;
     transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55)1s;
-    /* background-color: #895434; */
-    /* background-image: url(./box3.jpg); */
 
 }
 #part51>h1{
@@ -950,10 +915,8 @@ html,body{
     clip-path: ellipse(180px 250px at 50% 50%);
     rotate: -40deg;
     transition: all ease-out .5s;
-    /* opacity: 0; */
     scale: 0;
     z-index: 9999;
-    /* border-radius: 50%; */
 }
 #part7>.box>.over>img{
     rotate: 40deg;
@@ -972,10 +935,7 @@ html,body{
     font-weight: 900;
     font-size: 3.5vmax;
     font-stretch: semi-condensed;
-    /* display: block; */
     z-index: 9999;
-    /* mix-blend-mode: difference; */
-    /* background-color: #b494c5; */
 }
 #part7>.box>.text>h1::after{
     content: "";
@@ -1056,8 +1016,6 @@ html,body{
     height: 50vh;
     border-bottom: 1px solid black;
     position: relative;
-    /* display: flex;
-    flex-direction: column; */
 }
 #part101{
     width: 100%;
@@ -1113,7 +1071,6 @@ html,body{
 #part111{
     width: 100%;
     height: 70vh;
-    /* border-bottom: 3px solid rgb(168, 27, 27); */
     position: relative;
     background-color: black;
     color: white;
@@ -1134,10 +1091,8 @@ html,body{
     width: 20%;
     font-size: 1.5vmax;
     font-weight: 600;
-    /* font-stretch: extra-expanded; */
     line-height: .9;
     font-family: grot-wb;
-    /* background-color: rgb(176, 51, 51); */
 }
 #partl1>p{
     width: 30%;
@@ -1145,7 +1100,6 @@ html,body{
     font-weight: 600;
     text-transform: uppercase;
     font-family: grot-r;
-    /* background-color: #E5855E; */
     left: -5%;
 }
 #partl1>button{
@@ -1162,7 +1116,6 @@ html,body{
     transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275)5s;
 }
 #partl1>button:hover{
-    /* box-shadow: -9px 10px 1px 1px rgb(17, 16, 16); */
     cursor: pointer;
     left: .7%;
     top: -43%;
@@ -1181,13 +1134,11 @@ html,body{
     width: 100%;
     height: 60% ;
     position: relative;
-    /* background-color: beige; */
 }
 #partl2>.links{
     width: 70px;
     height: 20px;
     position: relative;
-    /* background-color: #E5855E; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1278,10 +1229,7 @@ html,body{
     font-size: 1vmax;
     letter-spacing: 1px;
     font-weight: 600;
-    /* font-stretch: extra-expanded; */
-    /* line-height: .9; */
     font-family: grot-r;
-    /* background-color: rgb(176, 51, 51); */
 }
 #partl3>p{
     width: 30%;
@@ -1289,7 +1237,6 @@ html,body{
     font-weight: 800;
     text-transform: uppercase;
     font-family: grot-b;
-    /* background-color: #E5855E; */
     left: 3%;
     color: grey;
 }
